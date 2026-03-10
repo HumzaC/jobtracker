@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Alembic
+alembic/versions/*.pyc
+
+# Frontend
+job-tracker-frontend/node_modules/
+job-tracker-frontend/dist/
+job-tracker-frontend/.vite/
+
+# Database
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
